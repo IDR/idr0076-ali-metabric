@@ -1,0 +1,176 @@
+---
+version: 2
+channels:
+  1:
+    label: Total HH3-113In
+    color: 00FF00
+    active: true
+    start: 0
+    end: 10
+  2:
+    active: false
+    label: Xe126-126Xe
+  3:
+    active: false
+    label: I127-127I
+  4:
+    active: false
+    label: Xe131-131Xe
+  5:
+    active: false
+    label: Xe134-134Xe
+  6:
+    active: false
+    label: H3K27me3-139La
+  7:
+    active: false
+    label: Ce140-140Ce
+  8:
+    label: CK5-141Pr
+    color: FF0000
+    active: true
+    start: 0
+    end: 10
+  9:
+    active: false
+    label: Fibronectin-Nd142
+  10:
+    active: false
+    label: CK19-143Nd
+  11:
+    active: false
+    label: CK8_18-144Nd
+  12:
+    active: false
+    label: Twist-145Nd
+  13:
+    label: CD68-146Nd
+    color: 0000FF
+    active: true
+    start: 0
+    end: 10
+  14:
+    active: false
+    label: CK14-147Sm
+  15:
+    active: true
+    label: SMA-148Nd
+  16:
+    active: false
+    label: Vimentin-149Sm
+  17:
+    active: false
+    label: C-myc-Nd150
+  18:
+    active: false
+    label: HER2-Eu151
+  19:
+    active: false
+    label: CD3-Sm152
+  20:
+    active: false
+    label: p-HH3-Eu153
+  21:
+    active: false
+    label: p-ERK1/2-154Sm
+  22:
+    active: false
+    label: Slug-155Gd
+  23:
+    active: false
+    label: ER-156Gd
+  24:
+    active: false
+    label: PR-158Gd
+  25:
+    active: false
+    label: p53-159Tb
+  26:
+    label: CD44-160Gd
+    color: FFFF00
+    active: true
+    start: 0
+    end: 10
+  27:
+    active: false
+    label: EpCAM-161Dy
+  28:
+    active: false
+    label: CD45-162Dy
+  29:
+    active: false
+    label: GATA3-163Dy
+  30:
+    label: CD20-164Dy
+    color: 00FFFF
+    active: true
+    start: 0
+    end: 10
+  31:
+    active: false
+    label: Beta-catenin-165Ho
+  32:
+    active: false
+    label: CAIX-166Er
+  33:
+    active: false
+    label: E_Cadherin-167Er
+  34:
+    label: Ki67-168Er
+    color: FF00FF
+    active: true
+    start: 0
+    end: 10
+  35:
+    active: false
+    label: EGFR-169Tm
+  36:
+    active: false
+    label: pS6-170Er
+  37:
+    active: false
+    label: Sox9-171Yb
+  38:
+    active: false
+    label: vWF-CD31-Yb172
+  39:
+    active: false
+    label: mTOR-173Yb
+  40:
+    active: false
+    label: CK7-174Yb
+  41:
+    label: panCK-175Lu
+    color: FFFFFF
+    active: true
+    start: 0
+    end: 10
+  42:
+    active: false
+    label: cPARP-cCasp3-176Yb
+  43:
+    active: false
+    label: DNA1-191Ir
+  44:
+    active: false
+    label: DNA2-193Ir
+  45:
+    active: false
+    label: Hg202-202Hg
+  46:
+    active: false
+    label: Pb202-202Pb
+  47:
+    active: false
+    label: Pb206-206Pb
+  48:
+    active: false
+    label: Pb207-207Pb
+  49:
+    active: false
+    label: Pb208-208Pb
+  50:
+    active: false
+    label: ArAr80-80ArAr
+
+greyscale: false
