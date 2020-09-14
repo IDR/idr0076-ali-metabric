@@ -1,0 +1,68 @@
+---
+name: idr0076-ali-metabric/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Organism Part]
+    clientname: Organism Part
+    include: yes
+
+  - name: Characteristics [Diagnosis]
+    clientname: Diagnosis
+    include: yes
+
+  - name: Characteristics [Age at Diagnosis]
+    clientname: Age at Diagnosis
+    include: yes
+
+  - name: Metabric ID
+    clientname: Metabric ID
+    include: yes
+
+  - name: cBioPortal URL
+    clientname: cBioPortal URL
+    include: yes
+
+  - name: Core ID
+    clientname: Core ID
+    include: yes
+
+  - name: Image Number
+    clientname: Image Number
+    include: yes
+
+  - name: Comment [Image File Comments]
+    clientname: Image File Comments
+    include: yes
+
+  - name: Comment [Cell Mask Comments]
+    clientname: Cell Mask Comments
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
