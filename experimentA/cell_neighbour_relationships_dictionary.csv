@@ -1,0 +1,5 @@
+﻿Cell relationships data relating to Ali HR et al Nat Cancer 2020: cell neighbour relationships for all segmented cells,
+Variable,Description
+ImageNumber,Image identifier: a key variable linking data to single_cell_data.csv
+firstobjectnumber,numeric cell identifier (the 'index cell')
+secondobjectnumber,numeric cell identifier (identifies the neighbours of the 'index cell')

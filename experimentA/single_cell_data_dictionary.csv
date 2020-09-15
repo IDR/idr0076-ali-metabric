@@ -1,0 +1,50 @@
+﻿"Single cell data relating to Ali HR et al. Nat Cancer 2020. Comprising cleaned data, excluding cells affected by artifacts, used for principal analyses. ",
+ColumnName,Description
+metabricId,METABRIC patient identifier (MB-####): can be used to link data to other public METABRIC data
+core_id,Tissue core identfier : up to a maximum of 3; the vast majority of tumours were represented by one tissue spot hence have only one id.
+ImageNumber,Image identifier: needed in addition to metabricId and core_id to account for interrupted image acquisitions (ie acquisition of some tissue spots was interrupted and subsequently resumed).
+ObjectNumber,Numeric cell identifier (unique per image); corresponds to cell mask integers.
+HH3_total,Mean ion counts (computed over area defined by cell masks) 
+CK19,Mean ion counts (computed over area defined by cell masks) 
+CK8_18,Mean ion counts (computed over area defined by cell masks) 
+Twist,Mean ion counts (computed over area defined by cell masks) 
+CD68,Mean ion counts (computed over area defined by cell masks) 
+CK14,Mean ion counts (computed over area defined by cell masks) 
+SMA,Mean ion counts (computed over area defined by cell masks) 
+Vimentin,Mean ion counts (computed over area defined by cell masks) 
+c_Myc,Mean ion counts (computed over area defined by cell masks) 
+HER2,Mean ion counts (computed over area defined by cell masks) 
+CD3,Mean ion counts (computed over area defined by cell masks) 
+HH3_ph,Mean ion counts (computed over area defined by cell masks) 
+Erk1_2,Mean ion counts (computed over area defined by cell masks) 
+Slug,Mean ion counts (computed over area defined by cell masks) 
+ER,Mean ion counts (computed over area defined by cell masks) 
+PR,Mean ion counts (computed over area defined by cell masks) 
+p53,Mean ion counts (computed over area defined by cell masks) 
+CD44,Mean ion counts (computed over area defined by cell masks) 
+EpCAM,Mean ion counts (computed over area defined by cell masks) 
+CD45,Mean ion counts (computed over area defined by cell masks) 
+GATA3,Mean ion counts (computed over area defined by cell masks) 
+CD20,Mean ion counts (computed over area defined by cell masks) 
+Beta_catenin,Mean ion counts (computed over area defined by cell masks) 
+CAIX,Mean ion counts (computed over area defined by cell masks) 
+E_cadherin,Mean ion counts (computed over area defined by cell masks) 
+Ki67,Mean ion counts (computed over area defined by cell masks) 
+EGFR,Mean ion counts (computed over area defined by cell masks) 
+pS6,Mean ion counts (computed over area defined by cell masks) 
+Sox9,Mean ion counts (computed over area defined by cell masks) 
+vWF_CD31,Mean ion counts (computed over area defined by cell masks) 
+pmTOR,Mean ion counts (computed over area defined by cell masks) 
+CK7,Mean ion counts (computed over area defined by cell masks) 
+panCK,Mean ion counts (computed over area defined by cell masks) 
+c_PARP_c_Casp3,Mean ion counts (computed over area defined by cell masks) 
+DNA1,Mean ion counts (computed over area defined by cell masks) 
+DNA2,Mean ion counts (computed over area defined by cell masks) 
+H3K27me3,Mean ion counts (computed over area defined by cell masks) 
+CK5,Mean ion counts (computed over area defined by cell masks) 
+Fibronectin,Mean ion counts (computed over area defined by cell masks) 
+Location_Center_X,Cell coordinate position
+Location_Center_Y,Cell coordinate position
+SOM_nodes,Self-organising map nodes (computed per image)
+pg_cluster,Phenograph cluster id of final cell phenotypes
+description,Cell phenotype description
