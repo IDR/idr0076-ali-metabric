@@ -1,0 +1,224 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.																
+# STUDY DESCRIPTION SECTION																														
+Comment[IDR Study Accession]	idr0076								
+												
+
+Study Title	Imaging mass cytometry and cell masks for 483 breast tumour samples from the METABRIC study 
+
+Study Type	image cytometry 																																
+Study Type Term Source REF	OMIT																																
+Study Type Term Accession	OMIT_0019157																																
+Study Description	Genomic alterations shape cell phenotypes and the structure of tumour ecosystems in poorly defined ways. To investigate these relationships, we used imaging mass cytometry to quantify the expression of 37 proteins with subcellular spatial resolution in 483 tumours from the METABRIC cohort. Single-cell analysis revealed cell phenotypes spanning epithelial, stromal, and immune types. Distinct combinations of cell phenotypes and cell-cell interactions were associated with genomic subtypes of breast cancer. Epithelial luminal cell phenotypes separated into those predominantly impacted by mutations and those affected by copy-number aberrations. Several features of tumour ecosystems, including cellular neighbourhoods, were linked to prognosis, illustrating their clinical relevance. In summary, systematic analysis of single-cell phenotypic and spatial correlates of genomic alterations in cancer revealed how genomes shape both the composition and architecture of breast tumour ecosystems and will enable greater understanding of the phenotypic impact of genomic alterations.  		
+							
+
+Study Key Words	breast cancer	imaging mass cytometry	cancer genomics	cancer imaging	histopathology																												
+Study Organism	Homo sapiens																																
+Study Organism Term Source REF	NCBITaxon																																
+Study Organism Term Accession	9606																																
+Study Experiments Number	1																																
+Study External URL	
+
+
+Study BioImage Archive Accession																																
+Study Public Release Date																																																												
+# Study Publication																																	
+Study PubMed ID																																	
+Study Publication Title	Imaging mass cytometry and multiplatform genomics define the phenogenomic landscape of breast cancer 																																
+Study Author List	Ali HR, Jackson HW, Zanotelli VRT, Danenberg E, Fischer JR, Bardwell H, Provenzano E, CRUK IMAXT Grand Challenge Team, Rueda, OM, Chin SF, Aparicio S, Caldas C, Bodenmiller B																																
+Study PMC ID																																	
+Study DOI	https://doi.org/10.1038/s43018-020-0026-6																																
+																																	
+# Study Contacts																																	
+Study Person Last Name	Ali																																
+Study Person First Name	Hamid																					
+Study Person Email	raza.ali@cruk.cam.ac.uk																																
+Study Person Address	CRUK Cambridge Institute, University of Cambridge																																
+Study Person ORCID	0000-0001-7587-0906																				
+Study Person Roles	submitter																																
+																																	
+# Study License and Data DOI																																	
+Study License	CC-BY 4.0																																
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Ali et al																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																	
+																																	
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																													
+																																	
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment											
+																																	
+Experiment Number	1
+
+Comment[IDR Experiment Name]	idr0076-ali-metabric/experimentA
+
+
+Experiment Sample Type	tissue																															
+Experiment Description	Multiplexed imaging of breast cancer tissues for 37 proteins																																
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT):	Total Tb: 																														
+Experiment Example Images																																
+Experiment Imaging Method	imaging mass cytometry																																
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession																																	
+Experiment Comments																																	
+																																	
+# assay files																																	
+Experiment Assay File																																	
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																													
+Assay Experimental Conditions Term Source REF																																	
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description	Processed segmented cell data were cleaned by eliminating cells affected by aggregates of hot pixels and peripheral cells affected by edge effect (a gradient of signal at the tissue edge). 																																
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	Formalin-fixed paraffin-embedded tissues represented in tissue arrays. Processed data were derived using a combination of Ilastik and CellProfiler.																													
+																																	
+# Phenotypes																																	
+Phenotype Name	55 cell phenotypes																																
+Phenotype Description	Identified by data-driven clustering																																
+Phenotype Score Type	Automatic																																
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																	
+Phenotype Term Accession			 																														
+																																	
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																														
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name	single_cell_data.csv and cell_neighbour_relationships.csv																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description	contain cleaned single cell data and cell neighbour data.																									
+Processed Data Column Name	
+file_id
+metabricId
+core_id
+ImageNumber
+ObjectNumber
+HH3_total
+CK19
+CK8_18
+Twist
+CD68
+CK14
+SMA
+Vimentin
+c_Myc
+HER2
+CD3
+HH3_ph
+Erk1_2
+Slug
+ER
+PR
+p53
+CD44
+EpCAM
+CD45
+GATA3
+CD20
+Beta_catenin
+CAIX
+E_cadherin
+Ki67
+EGFR
+pS6
+Sox9
+vWF_CD31
+pmTOR
+CK7
+panCK
+c_PARP_c_Casp3
+DNA1
+DNA2
+H3K27me3
+CK5
+Fibronectin
+Location_Center_X
+Location_Center_Y
+SOM_nodes
+pg_cluster
+description
+
+and
+
+file_id
+ImageNumber
+firstobjectnumber
+secondobjectnumber
+
+
+Processed Data Column Type	Data for all.
+
+Processed Data Column Annotation Level	Cell-level annotation (many per image)																															
+Processed Data Column Description	
+
+file_id	Key to match to image and cell mask file names
+metabricId	METABRIC patient identifier (MB-####): can be used to link data to other public METABRIC data
+core_id	Tissue core identfier : up to a maximum of 3; the vast majority of tumours were represented by one tissue spot hence have only one id.
+ImageNumber	Image identifier: needed in addition to metabricId and core_id to account for interrupted image acquisitions (ie acquisition of some tissue spots was interrupted and subsequently resumed).
+ObjectNumber	Numeric cell identifier (unique per image); corresponds to cell mask integers.
+HH3_total	Mean ion counts (computed over area defined by cell masks) 
+CK19	Mean ion counts (computed over area defined by cell masks) 
+CK8_18	Mean ion counts (computed over area defined by cell masks) 
+Twist	Mean ion counts (computed over area defined by cell masks) 
+CD68	Mean ion counts (computed over area defined by cell masks) 
+CK14	Mean ion counts (computed over area defined by cell masks) 
+SMA	Mean ion counts (computed over area defined by cell masks) 
+Vimentin	Mean ion counts (computed over area defined by cell masks) 
+c_Myc	Mean ion counts (computed over area defined by cell masks) 
+HER2	Mean ion counts (computed over area defined by cell masks) 
+CD3	Mean ion counts (computed over area defined by cell masks) 
+HH3_ph	Mean ion counts (computed over area defined by cell masks) 
+Erk1_2	Mean ion counts (computed over area defined by cell masks) 
+Slug	Mean ion counts (computed over area defined by cell masks) 
+ER	Mean ion counts (computed over area defined by cell masks) 
+PR	Mean ion counts (computed over area defined by cell masks) 
+p53	Mean ion counts (computed over area defined by cell masks) 
+CD44	Mean ion counts (computed over area defined by cell masks) 
+EpCAM	Mean ion counts (computed over area defined by cell masks) 
+CD45	Mean ion counts (computed over area defined by cell masks) 
+GATA3	Mean ion counts (computed over area defined by cell masks) 
+CD20	Mean ion counts (computed over area defined by cell masks) 
+Beta_catenin	Mean ion counts (computed over area defined by cell masks) 
+CAIX	Mean ion counts (computed over area defined by cell masks) 
+E_cadherin	Mean ion counts (computed over area defined by cell masks) 
+Ki67	Mean ion counts (computed over area defined by cell masks) 
+EGFR	Mean ion counts (computed over area defined by cell masks) 
+pS6	Mean ion counts (computed over area defined by cell masks) 
+Sox9	Mean ion counts (computed over area defined by cell masks) 
+vWF_CD31	Mean ion counts (computed over area defined by cell masks) 
+pmTOR	Mean ion counts (computed over area defined by cell masks) 
+CK7	Mean ion counts (computed over area defined by cell masks) 
+panCK	Mean ion counts (computed over area defined by cell masks) 
+c_PARP_c_Casp3	Mean ion counts (computed over area defined by cell masks) 
+DNA1	Mean ion counts (computed over area defined by cell masks) 
+DNA2	Mean ion counts (computed over area defined by cell masks) 
+H3K27me3	Mean ion counts (computed over area defined by cell masks) 
+CK5	Mean ion counts (computed over area defined by cell masks) 
+Fibronectin	Mean ion counts (computed over area defined by cell masks) 
+Location_Center_X	Cell coordinate position
+Location_Center_Y	Cell coordinate position
+SOM_nodes	Self-organising map nodes (computed per image)
+pg_cluster	Phenograph cluster id of final cell phenotypes
+description	Cell phenotype description
+
+and
+
+file_id	Key to match to image and cell mask file names
+ImageNumber	Image identifier: a key variable linking data to single_cell_data.csv
+firstobjectnumber	numeric cell identifier (the 'index cell') corresponding to ObjectNumber in single_cell_data.csv
+secondobjectnumber	numeric cell identifier (a neighbour of the 'index cell') corresponding to ObjectNumber in single_cell_data.csv
+
+
+Processed Data Column Link To Assay File	file_id																			
