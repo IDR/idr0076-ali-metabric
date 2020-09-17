@@ -1,6 +1,9 @@
 ---
-include: "../../bulk.yml"
+continue: "true"
+transfer: "ln_s"
+exclude: "clientpath"
 path: "idr0076-experimentA-filePaths.tsv"
 columns:
     - target
     - path
+    - name
