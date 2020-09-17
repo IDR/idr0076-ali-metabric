@@ -1,0 +1,2 @@
+This directory largely contains scripts for performing a serial
+import without the need for bulk.yml, and other helpers.
