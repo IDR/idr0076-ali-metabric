@@ -24,7 +24,7 @@ Study Public Release Date	2020-09-29
 # Study Publication																																	
 Study PubMed ID																																	
 Study Publication Title	Imaging mass cytometry and multiplatform genomics define the phenogenomic landscape of breast cancer 																																
-Study Author List	Ali HR, Jackson HW, Zanotelli VRT, Danenberg E, Fischer JR, Bardwell H, Provenzano E, CRUK IMAXT Grand Challenge Team, Rueda, OM, Chin SF, Aparicio S, Caldas C, Bodenmiller B																																
+Study Author List	Ali HR, Jackson HW, Zanotelli VRT, Danenberg E, Fischer JR, Bardwell H, Provenzano E, CRUK IMAXT Grand Challenge Team, Rueda OM, Chin SF, Aparicio S, Caldas C, Bodenmiller B																																
 Study PMC ID																																	
 Study DOI	https://doi.org/10.1038/s43018-020-0026-6																																
 																																	
@@ -41,7 +41,7 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/																																
 Study Copyright	Ali et al																																
 Study Data Publisher	University of Dundee																																
-Study Data DOI																																	
+Study Data DOI	https://doi.org/10.17867/10000146																																	
 																																	
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																													
