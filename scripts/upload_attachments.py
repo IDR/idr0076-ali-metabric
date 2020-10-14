@@ -21,27 +21,27 @@ FILESET_PATH = "/uod/idr/filesets/idr0076-ali-metabric"
 log = logging.getLogger()
 
 
-def upload_and_link(conn, attachment, image):
+def upload_and_link(conn, attachment, project):
     fo = upload_ln_s(conn.c, attachment, OMERO_DATA_DIR, MIMETYPE)
     fa = FileAnnotationI()
     fa.setFile(fo._obj)
     fa.setNs(omero.rtypes.rstring(NAMESPACE))
     fa = conn.getUpdateService().saveAndReturnObject(fa)
     fa = omero.gateway.FileAnnotationWrapper(conn, fa)
-    image.linkAnnotation(fa)
+    project.linkAnnotation(fa)
 
 
 def attach_tables(conn):
     
     TABLE_DIR = "/20191223-ftp/new_metabric_tables/"
     filenames = ('cell_neighbour_relationships.csv', 'single_cell_data.csv')
-    screen = conn.getObject('Screen', attributes={
-        'name': 'idr0076-ali-metabric/screenA'})
+    project = conn.getObject('Project', attributes={
+        'name': 'idr0076-ali-metabric/experimentA'})
 
     for filename in filenames:
         table_path = FILESET_PATH + TABLE_DIR + filename
         log.info(f"Uploading and linking {table_path}")
-        upload_and_link(conn, table_path, screen)
+        upload_and_link(conn, table_path, project)
 
 
 def main(argv):
