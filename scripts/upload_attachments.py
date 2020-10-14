@@ -61,7 +61,7 @@ def main(argv):
     logging.basicConfig(level=default_level)
     with cli_login() as c:
         conn = BlitzGateway(client_obj=c.get_client())
-        attach_tables()
+        attach_tables(conn)
 
 
 if __name__ == "__main__":
