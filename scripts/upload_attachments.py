@@ -33,7 +33,7 @@ def upload_and_link(conn, attachment, image):
 
 def attach_tables(conn):
     
-    TABLE_DIR = "20191223-ftp/new_metabric_tables/"
+    TABLE_DIR = "/20191223-ftp/new_metabric_tables/"
     filenames = ('cell_neighbour_relationships.csv', 'single_cell_data.csv')
     screen = conn.getObject('Screen', attributes={
         'name': 'idr0076-ali-metabric/screenA'})
